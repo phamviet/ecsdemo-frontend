@@ -4,6 +4,7 @@ service:
   port: 3000
   pathPatterns:
     - /*
+  priority: 100
   discoveryTTL: 5
   pipeline:
     acceptance:
